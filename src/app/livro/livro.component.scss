@@ -1,0 +1,68 @@
+.centrar {
+  max-width: 550px;
+  margin: auto;
+}
+
+.container {
+  max-width: 550px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: gray 0 0 30px;
+  margin: 20px;
+
+  /* -------------- IMAGEM -------------- */
+
+  .container_image {
+    box-shadow: dimgrey 0 5px 10px;
+    border-radius: 10px;
+    margin: 15px 25px 25px 25px;
+
+    .image {
+      width: 80px;
+      border-radius: 8px;
+    }
+  }
+
+  /* -------------- TEXTO -------------- */
+
+  .texto {
+    padding-bottom: 15px;
+    min-width: min-content;
+
+
+    .livro {
+      font-size: 22pt;
+      margin-bottom: 0;
+    }
+
+    .autor {
+      margin: 5px 0 10px 0;
+      font-size: 14pt;
+      font-family: 'Calligraffitti', cursive;
+    }
+
+    .ano {
+      background-color: #6ac731;
+      border-radius: 12px;
+      color: white;
+      text-align: center;
+      display: inline-block;
+      font-size: 10pt;
+      padding: 3px 20px 3px 20px;
+      margin: 0;
+    }
+  }
+
+  /* -------------- OLHO -------------- */
+
+  .olho {
+    align-items: center;
+    color: #00a8dc;
+    font-size: 25px;
+    padding-right: 35px;
+    margin-left: 100px;
+    cursor: pointer;
+  }
+}
