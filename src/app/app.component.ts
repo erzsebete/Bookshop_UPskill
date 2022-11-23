@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {LivrariaService} from "./livraria.service";
 
 
 @Component({
@@ -9,6 +10,8 @@ import {Component} from '@angular/core';
 
 export class AppComponent {
   title = 'livraria_upskill';
+  constructor(public livrariaService: LivrariaService) {
+  }
 }
 
 

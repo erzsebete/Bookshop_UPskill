@@ -26,7 +26,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 2013,
     "autor": "Aquilino Ribeiro",
     "sinopse": "Este romance reproduz a mundivivência das terras nortenhas e aproxima o texto ficcional da realidade narrada, numa Beira rural e analfabeta ancorada numa sociedade patriarcal. Misturando erudição com a linguagem popular, Aquilino capta esse ambiente arreigado na religiosidade e na crendice e revela o instinto camponês com todas as superstições e todos os subterfúgios associados à obsessão de propriedade.",
-    "imagem": "capas/1.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/1/imagem",
     "vendas": [
       {
         "data": "2021-11-19T20:32:10.000Z",
@@ -72,7 +72,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 1953,
     "autor": "Augustina Bessa-Luís",
     "sinopse": "«O que Sibila e sua descendência significam não precisa de ser sublinhado por contraste. Mas esse mundo romanesco, pelo seu simples aparecimento, deslocou o centro da atenção literária.» Eduardo Lourenço",
-    "imagem": "capas/2.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/2/imagem",
     "vendas": [
       {
         "data": "2022-02-15T19:01:16.000Z",
@@ -130,7 +130,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 1978,
     "autor": "Carlos de Oliveira",
     "sinopse": "Ancorada no areal da gândara, uma casa em falência. Em seu redor, o halo lucilante protege o terreno antes da execução da hipoteca. Imagens difusas povoam a paisagem de dunas a perder de vista, tentando capturar o que resta do real: a criança sentada num osso de baleia, o pai premindo o obturador, a mãe na senda da alquimia das gisandras, o tio aperfeiçoando a fórmula da porcelana etérea. E o silêncio atemorizador ao longo dos dias: o executor fiscal, os peregrinos de cabeça em chamas ameaçando a harmonia do reino mineral.",
-    "imagem": "capas/3.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/3/imagem",
     "vendas": [
       {
         "data": "2021-08-16T18:24:42.000Z",
@@ -184,7 +184,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 1917,
     "autor": "Raúl Brandão",
     "sinopse": "Publicado pela primeira vez em 1917, Húmus, a obraprima de Raul Brandão, é um misto de diário, feito de visões e reflexões metafísicas, e de ficção simbólica, onde se alternam dois monólogos interiores em fragmentos datados ao longo de cerca de um ano — o monólogo do autor/narrador, na primeira pessoa, e o de um filósofo lunático, alter ego do autor, apodado de Gabiru. Escrito num estilo poderosamente original e de uma modernidade impressionante, Húmus explora a contradição entre o mundo aparente e o autêntico, onde se descobrem monstruosidades não sonhadas.",
-    "imagem": "capas/4.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/4/imagem",
     "vendas": [
       {
         "data": "2022-06-01T07:09:34.000Z",
@@ -246,7 +246,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 1982,
     "autor": "Fernando Pessoa",
     "sinopse": "«O que temos aqui não é um livro mas a sua subversão e negação, o livro em potência, o livro em plena ruína, o livro-sonho, o livro-desespero, o anti-livro, além de qualquer literatura. O que temos nestas páginas é o génio de Pessoa no seu auge».\n\nEstas são palavras da INTRODUÇÃO à primeira edição do Livro do Desassossego publicado pela Assírio & Alvim, em 1998. Com o presente volume, vamos na décima edição desta maravilhosa e sui generis obra, agora enriquecida por alguns inéditos e, sobretudo, por dezenas de melhoramentos na leitura dos originais manuscritos, redigidos numa caligrafia notoriamente difícil de decifrar.",
-    "imagem": "capas/5.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/5/imagem",
     "vendas": [
       {
         "data": "2022-06-08T22:17:41.000Z",
@@ -288,7 +288,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 2018,
     "autor": "Vitorino Nemésio",
     "sinopse": "Mau Tempo no Canal conta a história de uma rapariga, Margarida Clark Dulmo, que anda pelos seus 20 anos e vive na ilha do Faial, Açores, no início do século XX.\n\nMargarida, que pertence a uma das mais respeitáveis famílias luso-britânicas das ilhas, está destinada a casar com André Barreto, jovem herdeiro de outra família, esta da ilha de São Jorge.\n\nEntretanto surge pelo meio um flirt entre Margarida e João Garcia, jovem pertencente à família dos Garcias, rival e inimiga da família Clark Dulmo, a que Margarida pertence. Mas aquilo que parece ir desenvolver-se como uma nova versão da história de Romeu e Julieta faz uma inversão de marcha e prossegue de modo menos romântico, de acordo com os brandos costumes da terra açoriana.",
-    "imagem": "capas/6.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/6/imagem",
     "vendas": [
       {
         "data": "2021-12-17T14:40:14.000Z",
@@ -350,7 +350,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 1935,
     "autor": "José Saramago",
     "sinopse": "Um tempo múltiplo. Labiríntico. As histórias das sociedades humanas. Ricardo Reis chega a Lisboa em finais de dezembro de 1935. Fica até setembro de 1936. Uma personagem vinda de uma outra ficção, a da heteronímia de Fernando Pessoa. E um movimento inverso, logo a começar: «Aqui onde o mar se acaba e a terra principia»; o virar ao contrário o verso de Camões: «Onde a terra acaba e o mar começa.» Em Camões, o movimento é da terra para o mar; no livro de Saramago temos Ricardo Reis a regressar a Portugal por mar. É substituído o movimento épico da partida. Mais uma vez, a história na escrita de Saramago. E as relações entre a vida e a morte. Ricardo Reis chega a Lisboa em finais de dezembro e Fernando Pessoa morreu a 30 de novembro. Ricardo Reis visita-o ao cemitério. Um tempo complexo. O fascismo consolida-se em Portugal.\n",
-    "imagem": "capas/7.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/7/imagem",
     "vendas": [
       {
         "data": "2021-01-16T23:57:31.000Z",
@@ -380,7 +380,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 2005,
     "autor": "José Saramago",
     "sinopse": "«E houve também aqueles dois gloriosos dias em que fui ajuda de pastor, e a noite de permeio, tão gloriosa como os dias. Perdoe-se a quem nasceu no campo, e dele foi levado cedo, esta insistente chamada que vem de longe e traz no seu silencioso apelo uma aura, uma coroa de sons, de luzes, de cheiros miraculosamente conservados intactos. O mito do paraíso perdido é o da infância — não há outro. O mais são realidades a conquistar, sonhadas no presente, guardadas no futuro inalcançável. E sem elas não sei o que faríamos hoje. Eu não o sei.»\n\nNeste fragmento de A Bagagem do Viajante (1973), José Saramago recorda o dia em que foi ajudar o tio a vender porcos na feira. O reconto dessa experiência aparentemente comum espelha todo o seu poder narrativo, levando-nos para um mundo de deslumbramento que só a infância permite, e que Armando Fonseca ilustra na perfeição.\n",
-    "imagem": "capas/9.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/9/imagem",
     "vendas": [
       {
         "data": "2020-07-29T02:34:27.000Z",
@@ -422,7 +422,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 2022,
     "autor": "José Saramago",
     "sinopse": "«Voltei ao sítio, já o Sol se pusera, lancei o anzol e esperei. Não creio que exista no mundo um silêncio mais profundo que o silêncio da água. Senti-o naquela hora e nunca mais o esqueci.» Publicada originalmente em As Pequenas Memórias (2006), esta recordação de infância de José Saramago transformou-se num conto universal, pleno de sabedoria e doçura, agora com as encantadoras ilustrações de Yolanda Mosquera.",
-    "imagem": "capas/10.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/10/imagem",
     "vendas": [
       {
         "data": "2021-06-20T03:32:38.000Z",
@@ -476,7 +476,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 2021,
     "autor": "José Saramago",
     "sinopse": "Em A Jangada de Pedra (…) o escritor recorre a um estratagema típico. Uma série de acontecimentos sobrenaturais culmina na separação da Península Ibérica que começa a vogar no Atlântico, inicialmente em direção aos Açores. A situação criada por Saramago dá-lhe um sem-número de oportunidades para, no seu estilo muito pessoal, tecer comentários sobre as grandezas e pequenezas da vida, ironizar sobre as autoridades e os políticos e, talvez muito especialmente, com os atores dos jogos de poder na alta política. O engenho de Saramago está ao serviço da sabedoria.",
-    "imagem": "capas/11.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/11/imagem",
     "vendas": [
       {
         "data": "2021-04-17T13:53:34.000Z",
@@ -526,7 +526,7 @@ const detalhes: DetalhesLivros = {
     "ano_publicacao": 2022,
     "autor": "José Saramago",
     "sinopse": "«Um romance histórico inovador. Personagem principal, o Convento de Mafra. O escritor aparta-se da descrição engessada, privilegiando a caracterização de uma época. Segue o estilo: \"Era uma vez um rei que fez promessas de levantar um convento em Mafra... Era uma vez a gente que construiu esse convento... Era uma vez um soldado maneta e uma mulher que tinha poderes... Era uma vez um padre que queria voar e morreu doido\". Tudo, \"era uma vez...\". Logo a começar por \"D. João, quinto do nome na tabela real, irá esta noite ao quarto de sua mulher, D. Maria Ana Josefa, que chegou há mais de dois anos da Áustria para dar infantes à coroa portuguesa a até hoje ainda não emprenhou (...). Depois, a sobressair, essa espantosa personagem, Blimunda, ao encontro de Baltasar. Milhares de léguas andou Blimundo, e o romance correu mundo, na escrita e na ópera (numa adaptação do compositor italiano Azio Corghi). Para a nossa memória ficam essas duas personagens inesquecíveis, um Sete Sóis e o outro Sete Luas, a passearem o seu amor pelo Portugal violento e inquisitorial dos tristes tempos do rei D. João V.» (Diário de Notícias, 9 de outubro de 1998)",
-    "imagem": "capas/12.jpg",
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/11/imagem",
     "vendas": []
   }
 }

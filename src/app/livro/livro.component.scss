@@ -4,24 +4,32 @@
 }
 
 .container {
-  max-width: 550px;
-  margin: auto;
+  /*max-width: 550px;
+  margin: auto;*/
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  box-shadow: gray 0 0 30px;
+  box-shadow: gray 0 0 10px;
   margin: 20px;
 
   /* -------------- IMAGEM -------------- */
 
   .container_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
     box-shadow: dimgrey 0 5px 10px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin: 15px 25px 25px 25px;
+    max-width: 80px;
 
     .image {
-      width: 80px;
-      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+      /*flex-shrink: 0;*/
+
     }
   }
 
@@ -30,27 +38,32 @@
   .texto {
     padding-bottom: 15px;
     min-width: min-content;
+    margin-right: auto;
 
 
     .livro {
-      font-size: 22pt;
+      font-size: 24pt;
       margin-bottom: 0;
+      font-family: 'Tangerine', cursive;
     }
 
     .autor {
       margin: 5px 0 10px 0;
-      font-size: 14pt;
-      font-family: 'Calligraffitti', cursive;
+      font-size: 18pt;
+      font-family: 'Tangerine', cursive;
+    }
+    .vendas
+    {
+      font-size: 8pt;
     }
 
     .ano {
       background-color: #6ac731;
       border-radius: 12px;
       color: white;
-      text-align: center;
       display: inline-block;
-      font-size: 10pt;
-      padding: 3px 20px 3px 20px;
+      font-size: 8pt;
+      padding: 2px 15px 3px 15px;
       margin: 0;
     }
   }
@@ -59,10 +72,9 @@
 
   .olho {
     align-items: center;
-    color: #00a8dc;
+    color: hotpink;
     font-size: 25px;
-    padding-right: 35px;
-    margin-left: 100px;
+    padding: 35px;
     cursor: pointer;
   }
 }

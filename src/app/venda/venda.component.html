@@ -1,1 +1,27 @@
-<p>venda works!</p>
+<div class="content">
+  <div class="texto">
+
+    <div class="info_venda">
+
+      <div *ngIf="tipo === 'lista'" class="titulo">
+        {{ livro }}
+      </div>
+      <div class="cliente">
+        {{ cliente}}
+      </div>
+      <div class="data">
+        <!--{{ i.data | date: "dd/MM/yyyy"}} às {{ i.data| date: "hh:mm" }}-->
+        {{ data | date: "dd/MM/yyyy 'às' hh:mm" }}
+      </div>
+      <div *ngIf="tipo === 'lista'" class="valor">
+        {{ valor | currency:'EUR' }}
+      </div>
+    </div>
+    <div *ngIf="tipo === 'lista'">
+      <img src="{{livro_imagem}}" alt="Capa do {{livro}}">
+    </div>
+
+  </div>
+
+  <div class="divisoria"></div>
+</div>

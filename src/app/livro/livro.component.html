@@ -8,16 +8,16 @@
 
     <div class="texto">
       <h1 class="livro">{{titulo}}</h1>
-      <p class="autor">Autor: {{nome}}</p>
-      <p class="autor">Nº de vendas: {{vendas}} volumes.</p>
+      <p class="autor">{{nome}}</p>
+      <p class="vendas">Nº de vendas: {{vendas}} volumes.</p>
       <p class="ano">{{ano}}</p>
     </div>
 
-    <div class="olho" (click)="olhoAzul()">
-      <!--<a href=""-->
-      <fa-icon [icon]="faEye"></fa-icon>
-   <!--   ></a>-->
-    </div>
+
+    <a class="olho" >
+      <fa-icon [icon]="faEye" [routerLink]="['/detalhes', id]"></fa-icon>
+    </a>
+
 
   </div>
 

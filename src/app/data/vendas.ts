@@ -16,7 +16,7 @@ const vendas: Venda[] = [
     "cliente": "João Miguel Fernandes",
     "valor": 13,
     "livro": "A Casa Grande de Romarigães ",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/1/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/1/imagem"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@ const vendas: Venda[] = [
     "cliente": "Brenda Oliveira",
     "valor": 14,
     "livro": "Húmus",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/4/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/4/imagem"
   },
   {
     "id": 4,
@@ -32,7 +32,7 @@ const vendas: Venda[] = [
     "cliente": "Eduardo da Luz",
     "valor": 13,
     "livro": "Livro do Desassossego",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/5/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/5/imagem"
   },
   {
     "id": 5,
@@ -40,7 +40,7 @@ const vendas: Venda[] = [
     "cliente": "Ian Moraes",
     "valor": 13,
     "livro": "Mau Tempo no Canal",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/6/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/6/imagem"
   },
   {
     "id": 8,
@@ -48,7 +48,7 @@ const vendas: Venda[] = [
     "cliente": "Fernando Souza",
     "valor": 12,
     "livro": "O Silêncio da Água",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/10/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/10/imagem"
   },
   {
     "id": 9,
@@ -56,7 +56,7 @@ const vendas: Venda[] = [
     "cliente": "Srta. Júlia Rodrigues",
     "valor": 13,
     "livro": "A Jangada de Pedra",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/11/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/11/imagem"
   },
   {
     "id": 10,
@@ -64,7 +64,7 @@ const vendas: Venda[] = [
     "cliente": "Sr. Ryan Moraes",
     "valor": 16,
     "livro": "Finisterra ",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/3/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/3/imagem"
   },
   {
     "id": 16,
@@ -72,7 +72,7 @@ const vendas: Venda[] = [
     "cliente": "Cecília Dias",
     "valor": 16,
     "livro": "A Casa Grande de Romarigães ",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/1/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/1/imagem"
   },
   {
     "id": 17,
@@ -80,7 +80,7 @@ const vendas: Venda[] = [
     "cliente": "Alice Jesus",
     "valor": 13,
     "livro": "A Sibila",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/2/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/2/imagem"
   },
   {
     "id": 20,
@@ -88,7 +88,7 @@ const vendas: Venda[] = [
     "cliente": "Ana Luiza Rodrigues",
     "valor": 12,
     "livro": "Mau Tempo no Canal",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/6/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/6/imagem"
   },
   {
     "id": 23,
@@ -96,7 +96,7 @@ const vendas: Venda[] = [
     "cliente": "Maria Sophia da Cruz",
     "valor": 12,
     "livro": "O Silêncio da Água",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/10/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/10/imagem"
   },
   {
     "id": 24,
@@ -104,7 +104,7 @@ const vendas: Venda[] = [
     "cliente": "Luana Cavalcanti",
     "valor": 14,
     "livro": "A Jangada de Pedra",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/11/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/11/imagem"
   },
   {
     "id": 31,
@@ -112,7 +112,7 @@ const vendas: Venda[] = [
     "cliente": "Theo Rezende",
     "valor": 12,
     "livro": "A Casa Grande de Romarigães ",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/1/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/1/imagem"
   },
   {
     "id": 34,
@@ -120,7 +120,7 @@ const vendas: Venda[] = [
     "cliente": "Cauã Azevedo",
     "valor": 15,
     "livro": "Livro do Desassossego",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/5/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/5/imagem"
   },
   {
     "id": 35,
@@ -128,7 +128,7 @@ const vendas: Venda[] = [
     "cliente": "Lavínia da Cunha",
     "valor": 12,
     "livro": "Mau Tempo no Canal",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/6/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/6/imagem"
   },
   {
     "id": 36,
@@ -136,7 +136,7 @@ const vendas: Venda[] = [
     "cliente": "Guilherme Pires",
     "valor": 12,
     "livro": "O Ano da Morte de Ricardo Reis ",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/7/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/7/imagem"
   },
   {
     "id": 37,
@@ -144,7 +144,7 @@ const vendas: Venda[] = [
     "cliente": "Sr. Bryan da Luz",
     "valor": 14,
     "livro": "Uma Luz Inesperada",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/9/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/9/imagem"
   },
   {
     "id": 40,
@@ -152,7 +152,7 @@ const vendas: Venda[] = [
     "cliente": "Elisa Fogaça",
     "valor": 13,
     "livro": "Finisterra ",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/3/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/3/imagem"
   },
   {
     "id": 48,
@@ -160,7 +160,7 @@ const vendas: Venda[] = [
     "cliente": "Carolina Pereira",
     "valor": 12,
     "livro": "Húmus",
-    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livros/4/imagem"
+    "livro_imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/4/imagem"
   },
   {
     "id": 50,

@@ -7,7 +7,7 @@ const favoritos: Livro[] = [
     "ano_publicacao": 1982,
     "autor": "Fernando Pessoa",
     "vendas": 8,
-    "imagem": "https://m9-frontend.upskill.appx.pt/livros/5/imagem"
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/5/imagem"
   },
   {
     "id": 3,
@@ -15,7 +15,7 @@ const favoritos: Livro[] = [
     "ano_publicacao": 1978,
     "autor": "Carlos de Oliveira",
     "vendas": 11,
-    "imagem": "https://m9-frontend.upskill.appx.pt/livros/3/imagem"
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/3/imagem"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@ const favoritos: Livro[] = [
     "ano_publicacao": 1953,
     "autor": "Augustina Bessa-Luís",
     "vendas": 12,
-    "imagem": "https://m9-frontend.upskill.appx.pt/livros/2/imagem"
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/2/imagem"
   },
   {
     "id": 1,
@@ -31,7 +31,7 @@ const favoritos: Livro[] = [
     "ano_publicacao": 2013,
     "autor": "Aquilino Ribeiro",
     "vendas": 9,
-    "imagem": "https://m9-frontend.upskill.appx.pt/livros/1/imagem"
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/1/imagem"
   },
   {
     "id": 4,
@@ -39,7 +39,7 @@ const favoritos: Livro[] = [
     "ano_publicacao": 1917,
     "autor": "Raúl Brandão",
     "vendas": 13,
-    "imagem": "https://m9-frontend.upskill.appx.pt/livros/4/imagem"
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/4/imagem"
   },
   {
     "id": 6,
@@ -47,7 +47,7 @@ const favoritos: Livro[] = [
     "ano_publicacao": 2018,
     "autor": "Vitorino Nemésio",
     "vendas": 13,
-    "imagem": "https://m9-frontend.upskill.appx.pt/livros/6/imagem"
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/6/imagem"
   },
   {
     "id": 7,
@@ -55,7 +55,7 @@ const favoritos: Livro[] = [
     "ano_publicacao": 1935,
     "autor": "José Saramago",
     "vendas": 5,
-    "imagem": "https://m9-frontend.upskill.appx.pt/livros/7/imagem"
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/7/imagem"
   },
   {
     "id": 9,
@@ -63,7 +63,7 @@ const favoritos: Livro[] = [
     "ano_publicacao": 2005,
     "autor": "José Saramago",
     "vendas": 8,
-    "imagem": "https://m9-frontend.upskill.appx.pt/livros/9/imagem"
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/9/imagem"
   },
   {
     "id": 10,
@@ -71,7 +71,7 @@ const favoritos: Livro[] = [
     "ano_publicacao": 2022,
     "autor": "José Saramago",
     "vendas": 11,
-    "imagem": "https://m9-frontend.upskill.appx.pt/livros/10/imagem"
+    "imagem": "https://m9-frontend.upskill.appx.pt/livraria/livros/10/imagem"
   }
 ]
 

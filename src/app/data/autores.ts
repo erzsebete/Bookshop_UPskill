@@ -10,7 +10,7 @@ const autores: Autor[] = [
   {
     "id": 1,
     "nome": "Aquilino Ribeiro",
-    "livros": 1
+    "livros": 6
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@ const autores: Autor[] = [
   {
     "id": 4,
     "nome": "Fernando Pessoa",
-    "livros": 1
+    "livros": 3
   },
   {
     "id": 5,
@@ -40,17 +40,17 @@ const autores: Autor[] = [
   {
     "id": 7,
     "nome": "José Cardoso Pires",
-    "livros": 1
+    "livros": 2
   },
   {
     "id": 8,
     "nome": "António Lobo Antunes",
-    "livros": 1
+    "livros": 2
   },
   {
     "id": 9,
     "nome": "Herberto Helder",
-    "livros": 1
+    "livros": 5
   },
   {
     "id": 10,
@@ -65,7 +65,7 @@ const autores: Autor[] = [
   {
     "id": 12,
     "nome": "Carlos de Oliveira",
-    "livros": 1
+    "livros": 2
   }
 ]
 

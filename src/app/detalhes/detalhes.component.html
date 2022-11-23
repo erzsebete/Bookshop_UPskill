@@ -1,1 +1,47 @@
-<p>detalhes works!</p>
+<section class="section_one">
+  <div class="container">
+    <div class="imgIcon">
+      <div class="container_image">
+        <img class="image" src="{{ dt.imagem }}" alt="Imagem do livro "/>
+      </div>
+
+      <div class="divIconFav" (click)="livrariaService.toggleFavorite(id)" >
+        <fa-icon [icon] = "livrariaService.isFavorite(id) ?  faBookmark : faBookmarkRegular"
+          class="iconFav"
+        ></fa-icon>
+      </div>
+    </div>
+
+    <div class="texto">
+      <h1 class="livro">{{ dt.titulo }}</h1>
+      <p class="autor">{{ dt.autor }}</p>
+      <p class="ano">{{ dt.ano_publicacao }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section_sinopse">
+  <div>
+    <p>{{ dt.sinopse }} </p>
+  </div>
+</section>
+
+<section class="section_vendas">
+  <div class="barra">
+    <div class="titulo_vendas">
+      Vendas
+    </div>
+    <img src="../assets/angle-down-solid.svg" alt="icon angle down">
+    <!--<fa-icon class="iconFav" [icon]="faChevronDown" ></fa-icon>-->
+  </div>
+
+
+  <app-venda
+    *ngFor="let venda of dt.vendas"
+    [cliente]="venda.cliente"
+    [data]="venda.data"
+    tipo="detalhes"
+  ></app-venda>
+
+
+</section>

@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {faEye} from '@fortawesome/free-solid-svg-icons';
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-livro',
@@ -17,15 +18,18 @@ export class LivroComponent implements OnInit {
   @Input() nacionalidade! : string;
   @Input() vendas! : number;
 
+  @Input() id! :number;
+
+
+/*
   constructor() {
+
   }
+*/
 
   ngOnInit(): void {
   }
 
-  olhoAzul() {
-    window.open("https://www.google.com", "_blank");
-  }
 }
 
 

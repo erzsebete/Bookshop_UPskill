@@ -1,0 +1,27 @@
+.iconsNav {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.767);
+  padding: 20px;
+  border-top: 0.5px solid #adadad;
+  margin: auto;
+}
+
+.iconNav {
+  color: grey;
+  cursor: pointer;
+  font-size: 20px;
+
+
+  &.active, &:hover {
+    color: hotpink;
+  }
+
+}

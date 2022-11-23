@@ -1,0 +1,153 @@
+/*----- SECTION ON -----*/
+
+.section_one {
+  width: 100%;
+  border-bottom: grey 0.1px solid;
+
+
+  .container {
+
+    max-width: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .imgIcon {
+      position: relative;
+
+      .container_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        box-shadow: dimgrey 0 5px 10px;
+        border-radius: 12px;
+        margin: 15px 25px 25px 25px;
+        max-width: 150px;
+
+        .image {
+          width: 100%;
+          height: 100%;
+
+        }
+      }
+
+      .divIconFav {
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: gray 0 0 10px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: pointer;
+
+
+
+        .iconFav {
+          color: hotpink;
+          font-size: 20px;
+
+
+          &.active {
+            fill: hotpink;
+          }
+        }
+      }
+
+
+    }
+
+  }
+
+  .texto {
+
+    padding-bottom: 15px;
+    min-width: min-content;
+    margin-right: auto;
+
+
+    .livro {
+      font-size: 24pt;
+      margin-bottom: 0;
+      font-family: 'Tangerine', cursive;
+    }
+
+    .autor {
+      margin: 5px 0 10px 0;
+      font-size: 18pt;
+      font-family: 'Tangerine', cursive;
+    }
+
+    .ano {
+      background-color: #6ac731;
+      border-radius: 12px;
+      color: white;
+      display: inline-block;
+      font-size: 8pt;
+      padding: 2px 15px 3px 15px;
+      margin: 0;
+    }
+  }
+}
+
+/*----- SECTION SINOPSE -----*/
+
+
+.section_sinopse {
+  width: 100%;
+  border-bottom: grey 0.1px solid;
+}
+
+
+/*----- SECTION VENDAS -----*/
+
+
+.section_vendas {
+
+  .barra
+  {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    .titulo_vendas {
+      /*margin-top: 20px;*/
+      margin-left: 30px;
+      font-size: 16px;
+      color: dimgrey;
+      font-weight: bold;
+      margin-right: auto;
+    }
+
+    img
+    {
+      width: 10px;
+      right: 0;
+    }
+  }
+
+  .content {
+    border-left: hotpink 2px solid;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    .cliente {
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    .data {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+
+  }
+}

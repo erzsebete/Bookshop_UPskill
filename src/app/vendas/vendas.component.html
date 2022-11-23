@@ -1,1 +1,10 @@
-<p>vendas works!</p>
+<app-venda
+  *ngFor="let venda of vd"
+  [livro]="venda.livro"
+  [cliente]="venda.cliente"
+  [data]="venda.data"
+  [valor]="venda.valor"
+  [livro_imagem]="venda.livro_imagem"
+  tipo="lista"
+></app-venda>
+

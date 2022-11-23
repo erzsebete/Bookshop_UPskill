@@ -1,0 +1,30 @@
+
+.content {
+  margin-top: 30px;
+
+  .texto {
+    border-left: hotpink 2px solid;
+    padding: 10px;
+    align-items: center;
+
+    .nome {
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    .livro {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+  }
+
+  .divisoria {
+    border-bottom: 0.5px solid #dbdbdb;
+    margin: 20px;
+    width: 100%;
+
+  }
+
+}
+
+

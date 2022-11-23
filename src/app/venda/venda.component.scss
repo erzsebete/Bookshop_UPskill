@@ -1,0 +1,51 @@
+.content {
+  margin-top: 30px;
+  max-width: 550px;
+
+
+  .texto {
+    display: flex;
+    justify-content: space-between;
+    border-left: hotpink 2px solid;
+    padding: 10px;
+    align-items: center;
+    margin-right: auto;
+
+    .info_venda {
+
+      .titulo {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .cliente {
+        margin-bottom: 5px;
+      }
+
+      .data {
+        font-size: 12px;
+      }
+
+      .valor {
+        margin-top: 5px;
+        font-size: 12px;
+      }
+
+    }
+
+    img {
+      width: 60px;
+      right: 0;
+      border-radius: 4px;
+      box-shadow: gray 0 5px 5px;
+    }
+  }
+
+  .divisoria {
+    border-bottom: 0.5px solid #dbdbdb;
+    margin: 20px;
+    width: 100%;
+
+  }
+
+}

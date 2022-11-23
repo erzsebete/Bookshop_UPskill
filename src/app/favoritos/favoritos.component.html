@@ -1,1 +1,8 @@
-<p>favoritos works!</p>
+<div class="content">
+  <div  *ngFor="let i of favoritos">
+    <img src="{{ livrariaService.getImagemFav(i)}}" alt="capa do livro">
+  </div>
+
+</div>
+
+
