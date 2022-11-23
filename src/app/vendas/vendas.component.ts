@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {LivrariaService} from "../livraria.service";
+import {Autor, Venda} from "../interfaces";
 
 @Component({
   selector: 'app-vendas',
@@ -8,12 +9,15 @@ import {LivrariaService} from "../livraria.service";
 })
 export class VendasComponent implements OnInit {
 
-  vd = this.livrariaService.getVendas()
+  vd : Venda[] = []
 
 
-  constructor(private livrariaService : LivrariaService) { }
+  constructor(public livrariaService : LivrariaService) { }
 
   ngOnInit(): void {
+    this.livrariaService.getVendas().subscribe((venda ) => {
+      this.vd = <Venda[]> venda;
+    })
   }
-
 }
+

@@ -1,19 +1,22 @@
 import { Injectable } from '@angular/core';
-import livros from "./data/livros";
+/*import livros from "./data/livros";
 import autores from "./data/autores";
 import detalhes_livros from "./data/detalhes_livros";
-import vendas from "./data/vendas";
-import favoritos from "./data/favoritos";
+import vendas from "./data/vendas";*/
+/*import favoritos from "./data/favoritos";*/
+import {HttpClient} from "@angular/common/http";
+
+
+const BASE_URL = "https://m9-frontend.upskill.appx.pt/livraria";
+
 
 @Injectable({
   providedIn: 'root'
 })
 
-
-
 export class LivrariaService {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   listaFav: number [] = JSON.parse(localStorage.getItem("favoritos") || "[]");
 
@@ -40,8 +43,6 @@ export class LivrariaService {
     localStorage.setItem("favoritos", JSON.stringify(this.listaFav));
   }
 
-
-
   getListaFav ()
   {
     return this.listaFav;
@@ -49,32 +50,26 @@ export class LivrariaService {
 
   getImagemFav (id:number)
   {
-    return this.getDetalhes(id).imagem;
+    return BASE_URL + "/livros/"+ String(id)+"/imagem";
   }
-
 
   getLivros()
   {
-    return livros;
+    return this.http.get(BASE_URL + "/livros");
   }
 
   getDetalhes(id : number)
   {
-    return detalhes_livros[id];
+    return this.http.get(BASE_URL + "/livros/"+ String(id));
   }
 
   getAutores()
   {
-    return autores;
-  }
-
-  getFavoritos()
-  {
-    return favoritos;
+    return this.http.get(BASE_URL + "/autores");
   }
 
   getVendas()
   {
-    return vendas;
+    return this.http.get(BASE_URL + "/vendas");
   }
 }
